@@ -1,112 +1,174 @@
-# Presentacion-Markdown
-# 📝 Presentación: Markdown (Lenguaje de Marcas)
+📝 Presentación: Markdown, el Lenguaje del Desarrollador
 
-![Markdown Badge](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![DAM Badge](https://img.shields.io/badge/Grado-DAM-blue?style=for-the-badge)
-![Ecosistema Badge](https://img.shields.io/badge/Entorno-GitHub%20Flavored%20Markdown-brightgreen?style=for-the-badge)
+Asignatura: Lenguaje de Marcas y Sistemas de Gestión de Información
 
-> **Asignatura:** Lenguaje de Marcas y Sistemas de Gestión de Información  
-> **Ciclo:** Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)  
-> **Grupo:** Grupo 3  
+Especialidad: CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)
 
----
+Equipo: Grupo 3
 
-## 📌 Índice de la Presentación
+Repositorio Oficial: Presentación interactiva adaptada para lectura en GitHub.
 
-1. [Introducción y Filosofía](#1-introducción-y-filosofía)
-2. [Sintaxis Básica de Markdown](#2-sintaxis-básica-de-markdown)
-3. [Ecosistema y Casos de Uso en DAM](#3-ecosistema-y-casos-de-uso-en-dam)
-4. [Markdown Extendido (GFM)](#4-markdown-extendido-gfm)
-5. [Conclusiones](#5-conclusiones)
+📑 Índice de Diapositivas
 
----
+Diapositiva 1: Portada e Introducción
 
-## 1. Introducción y Filosofía
+Diapositiva 2: ¿Por qué Markdown? (vs HTML)
 
-* **Creadores:** Creado por John Gruber y Aaron Swartz en 2004.
-* **Objetivo:** Conseguir un lenguaje de marcado ligero con el principio *Human-Readable* (fácil de leer y escribir en texto plano sin procesar).
-* **Comparativa de Legibilidad:**
+Diapositiva 3: Sintaxis Básica del Lenguaje
 
-### HTML tradicional:
-```html
-<p>Este es un texto en <b>negrita</b> y una <a href="https://github.com">link</a>.</p>
-```
+Diapositiva 4: Elementos Ricos (Enlaces e Imágenes)
 
-### Equivalente en Markdown:
-```markdown
-Este es un texto en **negrita** y una [link](https://github.com).
-```
+Diapositiva 5: Ecosistema Dev & Archivos README.md
 
----
+Diapositiva 6: GitHub Flavored Markdown (GFM)
 
-## 2. Sintaxis Básica de Markdown
+Diapositiva 7: Conclusiones y Turno de Preguntas
 
-### Encabezados
-```markdown
-# Encabezado H1
-## Encabezado H2
-### Encabezado H3
-```
+🖼️ Diapositiva 1: Portada e Introducción
 
-### Formato de Texto
-* **Negrita:** `**texto**`
-* *Cursiva:* `*texto*`
-* ~~Tachado:~~ `~~texto~~`
+💻 Vista de Consola
 
-### Listas y Enlaces
-- Listas desordenadas usando `-` o `*`
-1. Listas ordenadas numeradas
-- Enlaces: `[Nombre](URL)`
-- Imágenes: `![Texto Alternativo](URL_Imagen)`
+🔴 🟡 🟢   📄 portada.md
 
----
+1 | # Markdown: El Lenguaje del Desarrollador
+2 | 
+3 | - Status: Ready for Presentation
+4 | - Topic: Lightweight Markup Language
+5 | - Target: Cross-Platform Software Engineering
 
-## 3. Ecosistema y Casos de Uso en DAM
 
-Markdown es el estándar de documentación en la industria del software:
+Tema Central: Introducción a los lenguajes de marcado ligeros en entornos de desarrollo informático.
 
-* 🐙 **GitHub / GitLab / Bitbucket:** Archivos `README.md` como carta de presentación de proyectos.
-* ⚡ **Generadores de Sitios Estáticos (SSG):** Astro, Docusaurus, Hugo, MkDocs.
-* 📓 **Herramientas de Notas y Productividad:** Obsidian, VS Code, Notion.
+Objetivo de la Exposición: Demostrar el valor estratégico de Markdown en la documentación técnica y el flujo de trabajo colaborativo.
 
----
+💡 Diapositiva 2: ¿Por qué Markdown? (vs HTML)
 
-## 4. Markdown Extendido (GFM)
+Origen: Creado por John Gruber y Aaron Swartz en 2004.
 
-GitHub Flavored Markdown (GFM) añade funcionalidades avanzadas para desarrolladores:
+Filosofía: Garantizar la legibilidad en texto plano (Human-Readable) sin necesidad de compilación o renderizado previo.
 
-### Bloque de Código con Coloreado de Sintaxis (Syntax Highlighting)
+⚔️ Comparativa Directa de Sintaxis
 
-```java
-public class HolaMundo {
+Criterio
+
+HTML Tradicional
+
+Markdown
+
+Sintaxis
+
+<p>Texto en <b>negrita</b></p>
+
+Texto en **negrita**
+
+Legibilidad en texto plano
+
+Baja (interferida por etiquetas)
+
+Alta (natural e intuitiva)
+
+Velocidad de escritura
+
+Lenta (cierre de etiquetas)
+
+Ultra rápida
+
+Curva de aprendizaje
+
+Media
+
+Inmediata
+
+✍️ Diapositiva 3: Sintaxis Básica del Lenguaje
+
+1. Jerarquía de Encabezados
+
+# Encabezado 1 (Título Principal)
+## Encabezado 2 (Sección)
+### Encabezado 3 (Subsección)
+
+
+2. Estilos de Texto
+
+Texto en negrita: **negrita** o __negrita__
+
+Texto en cursiva: *cursiva* o _cursiva_
+
+~~Texto tachado:~~ ~~tachado~~
+
+3. Listas
+
+Listas Desordenadas: Usan guiones (-) o asteriscos (*).
+
+Listas Ordenadas: Usan numeración seguida de punto (1., 2.).
+
+🔗 Diapositiva 4: Elementos Ricos (Enlaces e Imágenes)
+
+Markdown permite insertar elementos multimedia de manera limpia mediante una sintaxis minimalista:
+
+Enlaces Hipertexto
+
+[Visitar GitHub](https://github.com)
+
+
+Resultado: Visitar GitHub
+
+Imágenes Incrustadas
+
+![Logo de Markdown](https://markdown-here.com/img/icon256.png)
+
+
+Nota de diferencia: La sintaxis de imagen es idéntica a la de un enlace, pero antecedida por el signo de exclamación !.
+
+🚀 Diapositiva 5: Ecosistema Dev & Archivos README.md
+
+Markdown es el estándar de facto para la comunicación técnica en la industria del software:
+
+Repositorios de Código: Estándar obligatorio en GitHub, GitLab, Bitbucket y Azure DevOps para documentar proyectos mediante archivos README.md.
+
+Herramientas de Notas y Documentación: Obsidian, Notion, VS Code, Logseq.
+
+Generadores de Sitios Estáticos (SSG): Docusaurus, Astro, MkDocs, Hugo.
+
+🛠️ Diapositiva 6: GitHub Flavored Markdown (GFM)
+
+GitHub Flavored Markdown es la extensión oficial de Markdown desarrollada por GitHub para añadir soporte a necesidades de desarrollo avanzadas.
+
+Bloque de Código con Resaltado de Sintaxis
+
+public class PresentacionDAM {
     public static void main(String[] args) {
-        System.out.println("¡Hola desde Markdown!");
+        System.out.println("¡Bienvenidos a la presentación de Lenguaje de Marcas!");
     }
 }
-```
 
-### Tablas de Datos
-| Función | Sintaxis | Ejemplo |
-| :--- | :---: | ---: |
-| Negrita | `**texto**` | **Ejemplo** |
-| Código Inline | `` `código` `` | `System.out` |
 
-### Listas de Tareas (Task Lists)
-- [x] Crear repositorio en GitHub
-- [x] Redactar la documentación en `README.md`
-- [ ] Presentar en clase y obtener un 10
+Listas de Tareas Interactivas
 
----
+[x] Diseñar presentación en Canva (Dark Mode / IDE)
 
-## 5. Conclusiones
+[x] Convertir el contenido a sintaxis Markdown
 
-* **Ligero y Portable:** No depende de un software propietario (como MS Word).
-* **Control de Versiones Friendly:** Ideal para integrarse con Git.
-* **Estándar en la Industria:** Es la herramienta diaria de cualquier desarrollador de software.
+[x] Publicar repositorio en GitHub
 
----
+[ ] Lograr la calificación máxima de $10 / 10$
 
-### 🌐 Código QR de la Presentación
-*Escanea el siguiente código para acceder a este documento renderizado en GitHub en tiempo real:*
+🎯 Diapositiva 7: Conclusiones y Turno de Preguntas
 
-![QR Code Placeholder](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com)
+Portabilidad Absoluta: Al tratarse de texto plano, se puede editar en cualquier sistema operativo sin depender de un software propietario.
+
+Integración con Git: Se integra de manera perfecta con sistemas de control de versiones, permitiendo ver diferencias (diffs) línea por línea.
+
+Eficiencia para el Desarrollador: Permite documentar sin separar las manos del teclado ni perder el foco del código.
+
+📲 Escanea el Código QR para acceder a este repositorio
+
+Toda esta presentación ha sido redactada íntegramente en sintaxis Markdown real.
+
+ ┌───────────────────────────┐
+ │   [ QR CODE AQUI ]        │
+ │   URL: github.com/tu-user │
+ └───────────────────────────┘
+
+
+Presentación desarrollada para la asignatura de Lenguaje de Marcas — DAM.
